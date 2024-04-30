@@ -1,0 +1,159 @@
+mvn clean compile package; mvn exec:java
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.JavaMultiThreads:JavaMultiThreads >----------------
+[INFO] Building JavaMultiThreads 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ JavaMultiThreads ---
+[INFO] Deleting /Users/ankurpandey/IdeaProjects/JavaMultiThreads/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ JavaMultiThreads ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ankurpandey/IdeaProjects/JavaMultiThreads/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ JavaMultiThreads ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /Users/ankurpandey/IdeaProjects/JavaMultiThreads/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ JavaMultiThreads ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ankurpandey/IdeaProjects/JavaMultiThreads/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ JavaMultiThreads ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ JavaMultiThreads ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/ankurpandey/IdeaProjects/JavaMultiThreads/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ JavaMultiThreads ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ JavaMultiThreads ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ JavaMultiThreads ---
+[INFO] Building jar: /Users/ankurpandey/IdeaProjects/JavaMultiThreads/target/JavaMultiThreads-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.216 s
+[INFO] Finished at: 2022-07-31T11:19:02-07:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.JavaMultiThreads:JavaMultiThreads >----------------
+[INFO] Building JavaMultiThreads 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ JavaMultiThreads >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ JavaMultiThreads <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ JavaMultiThreads ---
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 814 ] . Buffer size = 0 
+Producer1 : Going to insert packet [ Packet = 503 ] . Buffer size = 1 
+Producer1 : Going to insert packet [ Packet = 666 ] . Buffer size = 2 
+Producer1 : Going to insert packet [ Packet = 186 ] . Buffer size = 3 
+Producer1 : Going to insert packet [ Packet = 978 ] . Buffer size = 4 
+Producer1 : Going to insert packet [ Packet = 972 ] . Buffer size = 5 
+Producer1 : Going to insert packet [ Packet = 263 ] . Buffer size = 6 
+Producer1 : Going to insert packet [ Packet = 930 ] . Buffer size = 7 
+Producer1 : Going to insert packet [ Packet = 440 ] . Buffer size = 8 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 602 ] . Buffer size = 9 
+Producer1 : Going to insert packet [ Packet = 829 ] . Buffer size = 10 
+Producer1 : Going to insert packet [ Packet = 860 ] . Buffer size = 11 
+Producer1 : Going to insert packet [ Packet = 347 ] . Buffer size = 12 
+Producer1 : Going to insert packet [ Packet = 256 ] . Buffer size = 13 
+Producer1 : Going to insert packet [ Packet = 551 ] . Buffer size = 14 
+Producer1 : Going to insert packet [ Packet = 137 ] . Buffer size = 15 
+Producer1 : Going to insert packet [ Packet = 951 ] . Buffer size = 16 
+Producer1 : Going to insert packet [ Packet = 854 ] . Buffer size = 17 
+Producer1 : Going to insert packet [ Packet = 375 ] . Buffer size = 18 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 904 ] . Buffer size = 19 
+Producer1 : Going to insert packet [ Packet = 815 ] . Buffer size = 20 
+Producer1 : Going to insert packet [ Packet = 693 ] . Buffer size = 21 
+Producer1 : Going to insert packet [ Packet = 730 ] . Buffer size = 22 
+Producer1 : Going to insert packet [ Packet = 711 ] . Buffer size = 23 
+Producer1 : Going to insert packet [ Packet = 917 ] . Buffer size = 24 
+Producer1 : Going to insert packet [ Packet = 694 ] . Buffer size = 25 
+Producer1 : Going to insert packet [ Packet = 435 ] . Buffer size = 26 
+Producer1 : Going to insert packet [ Packet = 754 ] . Buffer size = 27 
+Producer1 : Going to insert packet [ Packet = 116 ] . Buffer size = 28 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 543 ] . Buffer size = 29 
+Producer1 : Going to insert packet [ Packet = 392 ] . Buffer size = 30 
+Producer1 : Going to insert packet [ Packet = 764 ] . Buffer size = 31 
+Producer1 : Going to insert packet [ Packet = 699 ] . Buffer size = 32 
+Producer1 : Going to insert packet [ Packet = 82 ] . Buffer size = 33 
+Producer1 : Going to insert packet [ Packet = 544 ] . Buffer size = 34 
+Producer1 : Going to insert packet [ Packet = 62 ] . Buffer size = 35 
+Producer1 : Going to insert packet [ Packet = 643 ] . Buffer size = 36 
+Producer1 : Going to insert packet [ Packet = 950 ] . Buffer size = 37 
+Producer1 : Going to insert packet [ Packet = 744 ] . Buffer size = 38 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 22 ] . Buffer size = 39 
+Producer1 : Going to insert packet [ Packet = 38 ] . Buffer size = 40 
+Producer1 : Going to insert packet [ Packet = 333 ] . Buffer size = 41 
+Producer1 : Going to insert packet [ Packet = 952 ] . Buffer size = 42 
+Producer1 : Going to insert packet [ Packet = 617 ] . Buffer size = 43 
+Producer1 : Going to insert packet [ Packet = 97 ] . Buffer size = 44 
+Producer1 : Going to insert packet [ Packet = 796 ] . Buffer size = 45 
+Producer1 : Going to insert packet [ Packet = 948 ] . Buffer size = 46 
+Producer1 : Going to insert packet [ Packet = 707 ] . Buffer size = 47 
+Producer1 : Going to insert packet [ Packet = 447 ] . Buffer size = 48 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 543 ] . Buffer size = 49 
+Producer1 : Going to insert packet [ Packet = 908 ] . Buffer size = 50 
+Producer1 : Going to insert packet [ Packet = 12 ] . Buffer size = 51 
+Producer1 : Going to insert packet [ Packet = 733 ] . Buffer size = 52 
+Producer1 : Going to insert packet [ Packet = 707 ] . Buffer size = 53 
+Producer1 : Going to insert packet [ Packet = 848 ] . Buffer size = 54 
+Producer1 : Going to insert packet [ Packet = 925 ] . Buffer size = 55 
+Producer1 : Going to insert packet [ Packet = 832 ] . Buffer size = 56 
+Producer1 : Going to insert packet [ Packet = 220 ] . Buffer size = 57 
+Producer1 : Going to insert packet [ Packet = 494 ] . Buffer size = 58 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 545 ] . Buffer size = 59 
+Producer1 : Going to insert packet [ Packet = 564 ] . Buffer size = 60 
+Producer1 : Going to insert packet [ Packet = 306 ] . Buffer size = 61 
+Producer1 : Going to insert packet [ Packet = 677 ] . Buffer size = 62 
+Producer1 : Going to insert packet [ Packet = 409 ] . Buffer size = 63 
+Producer1 : Going to insert packet [ Packet = 278 ] . Buffer size = 64 
+Producer1 : Going to insert packet [ Packet = 947 ] . Buffer size = 65 
+Producer1 : Going to insert packet [ Packet = 848 ] . Buffer size = 66 
+Producer1 : Going to insert packet [ Packet = 608 ] . Buffer size = 67 
+Producer1 : Going to insert packet [ Packet = 601 ] . Buffer size = 68 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 952 ] . Buffer size = 69 
+Producer1 : Going to insert packet [ Packet = 367 ] . Buffer size = 70 
+Producer1 : Going to insert packet [ Packet = 647 ] . Buffer size = 71 
+Producer1 : Going to insert packet [ Packet = 638 ] . Buffer size = 72 
+Producer1 : Going to insert packet [ Packet = 578 ] . Buffer size = 73 
+Producer1 : Going to insert packet [ Packet = 656 ] . Buffer size = 74 
+Producer1 : Going to insert packet [ Packet = 448 ] . Buffer size = 75 
+Producer1 : Going to insert packet [ Packet = 279 ] . Buffer size = 76 
+Producer1 : Going to insert packet [ Packet = 263 ] . Buffer size = 77 
+Producer1 : Going to insert packet [ Packet = 71 ] . Buffer size = 78 
+Consumer1 : Removed packet [ Packet = 814 ] . Buffer size = 78 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 516 ] . Buffer size = 78 
+Producer1 : Going to insert packet [ Packet = 414 ] . Buffer size = 79 
+Producer1 : Going to insert packet [ Packet = 427 ] . Buffer size = 80 
+Producer1 : Going to insert packet [ Packet = 176 ] . Buffer size = 81 
+Producer1 : Going to insert packet [ Packet = 602 ] . Buffer size = 82 
+Producer1 : Going to insert packet [ Packet = 401 ] . Buffer size = 83 
+Producer1 : Going to insert packet [ Packet = 461 ] . Buffer size = 84 
+Producer1 : Going to insert packet [ Packet = 644 ] . Buffer size = 85 
+Producer1 : Going to insert packet [ Packet = 23 ] . Buffer size = 86 
+Producer1 : Going to insert packet [ Packet = 348 ] . Buffer size = 87 
+Consumer1 : Removed packet [ Packet = 503 ] . Buffer size = 87 
+Consumer1 : Going to sleep for 10000 milliseconds.
+Producer1 : Going to insert packet [ Packet = 429 ] . Buffer size = 87 
+Producer1 : Going to insert packet [ Packet = 377 ] . Buffer size = 88 
+Producer1 : Going to insert packet [ Packet = 529 ] . Buffer size = 89 

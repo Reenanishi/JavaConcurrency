@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="Documents">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Modular/CLI/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Non-modular/CLI/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Non-modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/CommandLine/Non-modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/HelloFX/CLI/hellofx" />
+      <root url="file://$USER_HOME$/Documents/samples/HelloFX/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/HelloFX/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Modular/Java/HelloFX/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Non-Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Non-Modular/Java/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Non-Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/Eclipse/Non-Modular/Maven/hellofx/src/test/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Modular/Java/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Non-Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Non-Modular/Java/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/IntelliJ/Non-Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Modular/Java/HelloFX/src/hellofx/classes" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Non-Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Non-Modular/Java/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/NetBeans/Non-Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/VSCode/Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/VSCode/Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/VSCode/Non-Modular/Gradle/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/VSCode/Non-Modular/Java/hellofx/src" />
+      <root url="file://$USER_HOME$/Documents/samples/IDE/VSCode/Non-Modular/Maven/hellofx/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/university/csc262" />
+      <root url="file://$USER_HOME$/Documents/university/csc262/week2" />
+    </SOURCES>
+  </library>
+</component>
